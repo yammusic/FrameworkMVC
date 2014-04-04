@@ -1,0 +1,27 @@
+<h1>New User</h1><br/>
+
+<form id="formNewUser" data-action="new" action="?controller=users&action=adding" method="POST">
+    <div>
+        <label for="username">Username</label><br/>
+        <input type="text" name="users[username]" id="username" onchange="checkUserOrEmail( $( this ) )">
+        <span class="tooltip-form" style="display:none;"></span>
+    </div><br/>
+    <div>
+        <label for="password">Password</label><br/>
+        <input type="password" name="users[password]" id="password">
+    </div><br/>
+    <div>
+        <label for="re-password">Confirm Password</label><br/>
+        <input type="password" name="re-password" id="re-password">
+        <span class="tooltip-form" style="display:none;"></span>
+    </div><br/>
+    <div>
+        <label for="email">Email</label><br/>
+        <input type="email" name="users[email]" id="email" onchange="checkUserOrEmail( $( this ) )">
+        <span class="tooltip-form" style="display:none;"></span>
+    </div><br/>
+    <div>
+        <input type="submit" class="btn btn-success" value="Save">
+        <a href="./" class="btn btn-inverse">Back</a>
+    </div>
+</form>

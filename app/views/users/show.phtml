@@ -1,0 +1,23 @@
+<h1>CRUD List Users</h1><br/>
+
+<a href="?controller=users&action=create" class="btn btn-success">Create User</a><br/><br/>
+
+<div class="show-container">
+    <div class="left">
+        <span class="label label-info">ID</span><br>
+        <span class="label label-info">Username</span><br>
+        <span class="label label-info">Password (Encrypted)</span><br>
+        <span class="label label-info">Email</span><br>
+    </div>
+    <div class="right">
+        <span class="label label-silver"><?php echo $User[ 'id' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $User[ 'username' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $User[ 'password' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $User[ 'email' ]; ?></span><br>
+    </div>
+    <div class="actions">
+        <a href="?controller=users&action=edit&id=<?php echo $User[ 'id' ] ?>" class="btn btn-warning">Edit</a>
+        <button data-id="<?php echo $User[ 'id' ] ?>" class="btn btn-danger" onclick="destroyUser( $( this ) )">Destroy</button>
+        <a href="./" class="btn btn-inverse">Back</a>
+    </div>
+</div>

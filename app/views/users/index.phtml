@@ -1,0 +1,42 @@
+<h1>CRUD List Users</h1><br/>
+
+<a href="?controller=users&action=create" class="btn btn-success">Create User</a><br/><br/>
+
+<table class="table table-condesed table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Password (Encrypted)</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php 
+            if ( !is_null( $Users ) ) {
+                while ( $user = $Users->fetch_assoc() ) {
+        ?>
+        <tr>
+            <td><?php echo $user[ 'id' ]; ?></td>
+            <td><?php echo $user[ 'username' ]; ?></td>
+            <td><?php echo $user[ 'password' ]; ?></td>
+            <td><?php echo $user[ 'email' ]; ?></td>
+            <td>
+                <a href="?controller=users&action=show&id=<?php echo $user[ 'id' ] ?>" class="btn btn-info">Show</a>
+                <a href="?controller=users&action=edit&id=<?php echo $user[ 'id' ] ?>" class="btn btn-warning">Edit</a>
+                <button data-id="<?php echo $user[ 'id' ] ?>" class="btn btn-danger" onclick="destroyUser( $( this ) )">Destroy</button>
+            </td>
+        </tr>
+        <?php
+                }
+            } else {
+        ?>
+        <tr>
+            <td colspan="5" class="emptyUsers">No hay Usuarios registrados</td>
+        </tr>
+        <?php
+            }
+        ?>
+    </tbody>
+</table>

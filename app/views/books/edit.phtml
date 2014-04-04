@@ -1,0 +1,22 @@
+<h1>Editing Book</h1><br/>
+
+<form action="?controller=books&action=update" method="POST">
+    <input type="hidden" name="id" value="<?php echo $Book[ 'id' ] ?>">
+    <!-- <input type="hidden" name="sub-action" value="edit"> -->
+    <div>
+        <label for="title">Title</label><br/>
+        <input type="text" name="books[title]" id="title" value="<?php echo $Book[ 'title' ] ?>">
+    </div><br/>
+    <div>
+        <label for="author">Author</label><br/>
+        <input type="text" name="books[author]" id="author" value="<?php echo $Book[ 'author' ] ?>">
+    </div><br/>
+    <div>
+        <label for="isbn">ISBN</label><br/>
+        <input type="text" name="books[isbn]" id="isbn" value="<?php echo $Book[ 'isbn' ] ?>">
+    </div><br/>
+    <div>
+        <input type="submit" class="btn btn-success" value="Save">
+        <a href="./?controller=books" class="btn btn-inverse">Back</a>
+    </div>
+</form>

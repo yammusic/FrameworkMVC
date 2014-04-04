@@ -1,0 +1,23 @@
+<h1>CRUD List Books</h1><br/>
+
+<a href="?controller=books&action=create" class="btn btn-success">Create Book</a><br/><br/>
+
+<div class="show-container">
+    <div class="left">
+        <span class="label label-info">ID</span><br>
+        <span class="label label-info">Title</span><br>
+        <span class="label label-info">Author</span><br>
+        <span class="label label-info">ISBN</span><br>
+    </div>
+    <div class="right">
+        <span class="label label-silver"><?php echo $Book[ 'id' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $Book[ 'title' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $Book[ 'author' ]; ?></span><br>
+        <span class="label label-silver"><?php echo $Book[ 'isbn' ]; ?></span><br>
+    </div>
+    <div class="actions">
+        <a href="?controller=books&action=edit&id=<?php echo $Book[ 'id' ] ?>" class="btn btn-warning">Edit</a>
+        <a href="?controller=books&action=delete&id=<?php echo $Book[ 'id' ] ?>" class="btn btn-danger">Destroy</a>
+        <a href="./?controller=books" class="btn btn-inverse">Back</a>
+    </div>
+</div>

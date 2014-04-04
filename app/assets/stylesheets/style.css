@@ -1,0 +1,114 @@
+html, body {
+    text-align: center;
+    max-width: 100%;
+}
+
+a, button, input {
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+a, button, input[ type='submit' ] {
+    outline: none !important;
+}
+
+table {
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+table thead {
+    background: rgba(91,192,222,.9);
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    line-height: 40px !important;
+}
+
+td.emptyUsers {
+    font-weight: bold;
+    color: red;
+}
+
+form div {
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+input[ type='text' ], input[ type='password' ], input[ type='email' ] {
+    border: 1px solid silver;
+    background: white;
+    width: 230px;
+    padding: 7px;
+    color: black;
+    border-radius: 9px;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+input[ type='text' ]:focus, input[ type='password' ]:focus, input[ type='email' ]:focus {
+    box-shadow: 0 0 8px rgba(91,192,222,.8);
+    border: 1px solid rgb(91,192,222);
+}
+
+input[ type='text' ][disabled], input[ type='password' ][disabled], input[ type='email' ][disabled] {
+    box-shadow: 0 0 8px rgba(250,192,222,.8);
+    border: 1px solid rgb(91,192,222);
+}
+
+span.tooltip-form {
+    position: absolute;
+    display: block;
+    width: 195px;
+    left: 50%;
+    margin-left: 125px;
+    color: #FFFFFF;
+    background: rgba(217,83,79,.9);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    top: 46%;
+}
+
+span.tooltip-form:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px;
+  width: 0; height: 0;
+  border-right: 8px solid rgba(217,83,79,.9);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.btn-inverse {
+    background: rgba(0,0,0,.75);
+    color: white;
+}
+
+.btn-inverse:hover {
+    background: rgba(0,0,0,.95);
+    color: white !important;
+}
+
+.label-silver {
+    background: rgb(222,222,222);
+    color: #444;
+}
+
+div.show-container { width: 98%; max-width: 98%; display: block; margin: 0 auto; }
+div.show-container div.left, div.show-container div.right { width: 49%; display: inline-block; max-width: 49%; }
+div.show-container div.left { text-align: right; border-right: 1px solid silver; padding-right: 5px; }
+div.show-container div.right { text-align: left; border-left: 1px solid silver; padding-left: 5px; }
+div.show-container div.actions { text-align: center; margin-top: 15px; }

@@ -1,0 +1,20 @@
+<h1>New Book</h1><br/>
+
+<form action="?controller=books&action=adding" method="POST">
+    <div>
+        <label for="title">Title</label><br/>
+        <input type="text" name="books[title]" id="title">
+    </div><br/>
+    <div>
+        <label for="author">Author</label><br/>
+        <input type="text" name="books[author]" id="author">
+    </div><br/>
+    <div>
+        <label for="isbn">ISBN</label><br/>
+        <input type="text" name="books[isbn]" id="isbn">
+    </div><br/>
+    <div>
+        <input type="submit" class="btn btn-success" value="Save">
+        <a href="./?controller=books" class="btn btn-inverse">Back</a>
+    </div>
+</form>

@@ -1,0 +1,1495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"che",
+				"checked"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"mc",
+				"mcqParams"
+			],
+			[
+				"cTech",
+				"cTechnology"
+			],
+			[
+				"tech",
+				"technology_id"
+			],
+			[
+				"technolog",
+				"technology_id"
+			],
+			[
+				"technol",
+				"technology_id"
+			],
+			[
+				"mca",
+				"mcqParams"
+			],
+			[
+				"cte",
+				"cTechnologies"
+			],
+			[
+				"technolo",
+				"technologyId"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"cTechnol",
+				"cTechnologies"
+			],
+			[
+				"ctechn",
+				"cTechnologiesString"
+			],
+			[
+				"cTec",
+				"cTechnologiesString"
+			],
+			[
+				"cTechnolo",
+				"cTechnologyString"
+			],
+			[
+				"c",
+				"cTechnologyString"
+			],
+			[
+				"cTe",
+				"cTechnologiesForString"
+			],
+			[
+				"para",
+				"paramsForTheDestroyUrl"
+			],
+			[
+				"techn",
+				"technology_id"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"name",
+				"name_table"
+			],
+			[
+				"techno",
+				"technologyString"
+			],
+			[
+				"find",
+				"findTechnologyInString"
+			],
+			[
+				"new",
+				"new_technology_id"
+			],
+			[
+				"field",
+				"field_name"
+			],
+			[
+				"cT",
+				"C_Technology"
+			],
+			[
+				"fie",
+				"field_name_tables"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"C_",
+				"C_Technology"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"change",
+				"changed_id"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"sub",
+				"submit	submit"
+			],
+			[
+				"input",
+				"inputHidden"
+			],
+			[
+				"remove",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"inpu",
+				"inputHidden"
+			],
+			[
+				"form",
+				"form_delete"
+			],
+			[
+				"remo",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"attr",
+				"attr	.attr() - multiple"
+			],
+			[
+				"oop",
+				"optionsSubmit"
+			],
+			[
+				"current",
+				"current_time"
+			],
+			[
+				"get_curer",
+				"get_current_user_id"
+			],
+			[
+				"compa",
+				"company_id"
+			],
+			[
+				"recr",
+				"recruiters"
+			],
+			[
+				"coun",
+				"countTechnologies"
+			],
+			[
+				"to",
+				"toReturn"
+			],
+			[
+				"sq",
+				"sql"
+			],
+			[
+				"recrui",
+				"recruiter_career"
+			],
+			[
+				"recuiter",
+				"recruiter_career"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"col",
+				"column_name"
+			],
+			[
+				"con",
+				"contract"
+			],
+			[
+				"cC",
+				"cCareer"
+			],
+			[
+				"cc",
+				"cCareer"
+			],
+			[
+				"fomr",
+				"form-row"
+			],
+			[
+				"REC",
+				"REC_Meeting_Company"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"plu",
+				"plugin-recruiters"
+			],
+			[
+				"pl",
+				"plugin-recruiters"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"sec",
+				"secondaries"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"recruite",
+				"recruiterCompany"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"url",
+				"urlImgSuccess"
+			],
+			[
+				"text",
+				"textButton"
+			],
+			[
+				"wp",
+				"wp_enqueue_script"
+			],
+			[
+				"wp_",
+				"wp_enqueue_script"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"ob",
+				"obj_technologies"
+			],
+			[
+				"tec",
+				"technology_"
+			],
+			[
+				"recui",
+				"recruiterCompany"
+			],
+			[
+				"rec",
+				"recruiterCompany"
+			],
+			[
+				"company",
+				"company2"
+			],
+			[
+				"compan",
+				"company1"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"at",
+				"attr_slug"
+			],
+			[
+				"location",
+				"location_id"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"rec_curre",
+				"rec_current_user_recruiter"
+			],
+			[
+				"curren",
+				"current_user"
+			],
+			[
+				"curr",
+				"current_user"
+			],
+			[
+				"com",
+				"Company"
+			],
+			[
+				"job",
+				"job_meeting_companies"
+			],
+			[
+				"sql",
+				"sqlCompany1"
+			],
+			[
+				"sqlC",
+				"sqlCompany1"
+			],
+			[
+				"comp",
+				"company_id"
+			],
+			[
+				"clea",
+				"clean_user_cache"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"cu",
+				"currentLinkActive"
+			],
+			[
+				"recruier",
+				"recruiters"
+			],
+			[
+				"cand",
+				"Candidates"
+			],
+			[
+				"cRec",
+				"cRecProgressCandidatesHook"
+			],
+			[
+				"car",
+				"Careers"
+			],
+			[
+				"recRe",
+				"recRecruitersHook"
+			],
+			[
+				"RECCON",
+				"RECCONFIGPATH"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"recruiter",
+				"recruiters"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"us",
+				"user_recruiter_id"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"candid",
+				"candidate"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"result",
+				"resultJob"
+			],
+			[
+				"e",
+				"exists"
+			],
+			[
+				"resu",
+				"resultJob"
+			],
+			[
+				"res",
+				"reset_id"
+			],
+			[
+				"recru",
+				"recruiterToUpdate"
+			],
+			[
+				"set",
+				"set_prefix"
+			],
+			[
+				"candidate",
+				"candidate_id"
+			],
+			[
+				"candidat",
+				"candidate_id"
+			],
+			[
+				"post",
+				"posts_ids"
+			],
+			[
+				"get_lo",
+				"get_location_post"
+			],
+			[
+				"get_loca",
+				"get_location"
+			],
+			[
+				"globa",
+				"global"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+			"settings":
+			{
+				"buffer_size": 10136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/tmp/fz3temp-1/technologies.js",
+			"settings":
+			{
+				"buffer_size": 1825,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/fz3temp-1/technologies.php",
+			"settings":
+			{
+				"buffer_size": 13542,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"docblo",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"lista",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"syht",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"syph",
+				"Set Syntax: PHP"
+			],
+			[
+				"rea",
+				"File: Rename"
+			],
+			[
+				"rema",
+				"Git: Remote add…"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"subli",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"syj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"sub",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"ena",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"cop",
+				"File: Copy as Tag style"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gitcom",
+				"Git: Quick Commit"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gitp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitb",
+				"Git: Change Branch"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"feth",
+				"Fetch: Manage"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rene",
+				"File: Rename"
+			],
+			[
+				"coy",
+				"File: Copy as Tag script"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syja",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"sy jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"sy co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"dlee",
+				"File: Delete"
+			],
+			[
+				"enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"rem",
+				"File: Rename"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"syh",
+				"Set Syntax: HTML (Rails)"
+			]
+		],
+		"width": 615.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/mcq/delete.php.b",
+		"/tmp/fz3temp-1/technology.php",
+		"/tmp/fz3temp-1/base 2.js",
+		"/tmp/fz3temp-1/technologies.js",
+		"/tmp/fz3temp-1/technology.js",
+		"/tmp/fz3temp-1/technologies.php",
+		"/tmp/fz3temp-1/base.js",
+		"/home/wss1/wp_romainbrouard.sql",
+		"/tmp/fz3temp-1/delete.php",
+		"/tmp/fz3temp-1/edit.php",
+		"/tmp/fz3temp-1/list.php",
+		"/tmp/fz3temp-1/class-c-technologies-list-table.php",
+		"/tmp/fz3temp-1/locations.php",
+		"/tmp/fz3temp-1/class-mcq-mcqs-list-table.php",
+		"/tmp/fz3temp-1/class-c-locations-list-table.php",
+		"/var/www/mcq/technology.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/event_detail.php",
+		"/home/wss1/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/models/career.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/edit.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/controllers/technologies.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/includes/class-c-technologies-list-table.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/controllers/companies.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/controllers/careers.php",
+		"/tmp/fz3temp-1/_technology.php",
+		"/tmp/fz3temp-1/dbadapter.php",
+		"/tmp/fz3temp-1/_form.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/_form.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/helpers/application.php",
+		"/var/www/romainbrouard2/wp-config.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/includes/rec-recruiters-careers-list-table.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/delete.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/models/dbadapter.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/controllers/locations.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/_career.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/views/locations/delete.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/list.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/careers/new.php",
+		"/var/www/romainbrouard2/base/wp-content/plugins/recruiters/views/recruiters/edit.php",
+		"/home/wss1/class-mcq-mcqs-list-table.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/views/locations/_location.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/stylesheets/base.css",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/views/locations/edit.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/careers.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/routes.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/boot.php",
+		"/tmp/fz3temp-1/application.php",
+		"/tmp/fz3temp-1/companies.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/javascripts/base.js",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/index.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/companies/edit.php",
+		"/home/wss1/Downloads/job_jobprod_companies.sql",
+		"/home/wss1/Downloads/romainbrouard.sql",
+		"/home/wss1/.cache/.fr-e9cYmC/oneTarek-WP-Media-Uploader-Test/oneTarek-WP-Media-Uploader-Test.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/javascripts/candidates.js",
+		"/home/wss1/job_meeting_companies(1).sql",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/models/meeting_company.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/models/jobprod_company.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/models/company.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/control_tower.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/locales/fr_FR.po",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/candidates.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/helpers/application.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/locales/recruiters-fr_FR.mo",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/controllers/candidates.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/locales/recruiters-fr_FR.po",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/stylesheets/metro-bootstrap.css",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/stylesheets/jquery-ui.css",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/layouts/_flash.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/companies.php",
+		"/var/www/romainbrouard2/wp-content/plugins/meetings/recruiters.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/candidates/potential.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/companies/new.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/views/companies/list.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/shortcodes.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/wp-login.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/redirections.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/ajax-actions.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/wp-cron.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/config/register-plus-redux.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/register-plus-redux.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/config/redirections.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/config/contact-form-7.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/contact-form-7.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/constants.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/config/constants.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/config/boot.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/index.php",
+		"/var/www/romainbrouard2/wp-content/plugins/meetings/helpers/application.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/config/db.php",
+		"/tmp/fz3temp-1/candidates.php",
+		"/tmp/fz3temp-1/user_profile.php",
+		"/tmp/fz3temp-1/recruiters 2.php",
+		"/tmp/fz3temp-1/application 2.php",
+		"/tmp/fz3temp-1/recruiters.php",
+		"/tmp/fz3temp-1/recruiter.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/helpers/meeting.php",
+		"/var/www/romainbrouard2/wp-content/plugins/recruiters/assets/javascripts/timepicker.js",
+		"/tmp/fz3temp-1/candidates 2.php",
+		"/tmp/fz3temp-1/user_profile 2.php",
+		"/tmp/fz3temp-1/jobprod 2.php",
+		"/tmp/fz3temp-1/jobprod.php",
+		"/tmp/fz3temp-1/candidates-recruiters 2.js",
+		"/tmp/fz3temp-1/candidates-recruiters.js",
+		"/tmp/fz3temp-1/recruiter.js",
+		"/tmp/fz3temp-1/wp-login 2.php",
+		"/tmp/fz3temp-1/recruiter 2.js",
+		"/tmp/fz3temp-1/wp-login.php",
+		"/tmp/fz3temp-1/application 4.php",
+		"/tmp/fz3temp-1/application 3.php",
+		"/tmp/fz3temp-1/recruiterToCandidate.php",
+		"/tmp/fz3temp-1/access.php",
+		"/tmp/fz3temp-1/new.php",
+		"/home/wss1/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/romainbrouard2/error_generator.php",
+		"/var/www/romainbrouard2/index.php",
+		"/home/wss1/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/location.php",
+		"/tmp/fz3temp-1/functions.php",
+		"/tmp/fz3temp-1/location-widget.php",
+		"/tmp/fz3temp-1/home-widget-location.php",
+		"/tmp/fz3temp-1/tech_skills-widget.php",
+		"/tmp/fz3temp-1/home-widget-tech-category.php",
+		"/tmp/fz3temp-1/admin-script-tech_skills-and-location.js",
+		"/tmp/fz3temp-1/home-thumbnails.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/romainbrouard2/wp-content/plugins/recruiters/",
+			"/var/www/romainbrouard2/wp-content/plugins/",
+			"/var/www/romainbrouard2/wp-content/plugins/jobprod",
+			"/var/www/romainbrouard2/wp-content/plugins/mcq",
+			"/var/www/romainbrouard2/wp-content/plugins/jobprod",
+			"/var/www/romainbrouard2/wp-content/plugins/mcq",
+			"/var/www/romainbrouard2/",
+			"/var/www/romainbrouard/base/",
+			"/var/www/romainbrouard/wp-content/themes/devision",
+			"/var/www/romainbrouard/wp-content/plugins/mcq",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"inpu",
+			"category_id",
+			"technologyIdcT",
+			"technologyId",
+			"tables",
+			"tech_id",
+			"technology_id",
+			"value",
+			"tech_id",
+			"value",
+			"technology_id",
+			"tecnology_id",
+			"table",
+			"cTechnologies",
+			"''",
+			"new_technology_id",
+			"key",
+			"variable",
+			"technology_id",
+			"variable",
+			"cTechnology",
+			"value",
+			"variable",
+			"cTechnology",
+			"subject",
+			"replace",
+			"technologies_ids",
+			"destroy",
+			"var",
+			"action",
+			"technologies",
+			"page",
+			"destroy",
+			"action",
+			"page",
+			"continue",
+			"cTechnology",
+			"value",
+			"variable",
+			"cTechnologyString",
+			"cTechnologiesString",
+			"\n          ",
+			"cTechnologies",
+			"cTechnologiesForString",
+			"value",
+			"variable",
+			"technology_id",
+			"value",
+			"variable",
+			"borrado",
+			"technology_id",
+			"value",
+			"return",
+			"value",
+			"getWPDB()->get_results",
+			"return",
+			"technology",
+			"value",
+			"return",
+			"variable",
+			"technologies",
+			"array",
+			"name_table",
+			"value",
+			"table",
+			"value",
+			"variable",
+			"''",
+			"get_row",
+			",3,",
+			"technologies",
+			"candidates_selection_profiles",
+			"variable",
+			"field_name",
+			"array",
+			"technology_id",
+			"candidates_selection_profiles",
+			"value",
+			"variable",
+			"technology_id",
+			"technologies",
+			"name",
+			"disabled",
+			"name",
+			"attribute",
+			"submit",
+			"property1",
+			"this",
+			"that",
+			"disabled",
+			"value",
+			"Locations",
+			"false",
+			"C_DbAdapter",
+			"DbAdapter",
+			"MCQ",
+			"print_r",
+			"var_dump",
+			"update",
+			"Date",
+			"Offer",
+			"Technology",
+			"cTechnology",
+			"technology_id",
+			"Technologies",
+			"C_Technology",
+			"cTechnologies",
+			"technologies_ids",
+			"mcq",
+			"technologies",
+			"Technology",
+			"technologies",
+			"mcq",
+			"mcqPage",
+			"technology",
+			"technology_name",
+			"technology_id",
+			"countTechnologies",
+			"technologies",
+			"value",
+			"return",
+			"get_contracts",
+			"contracts",
+			"contract",
+			"recruiter_career_contract",
+			"is_the_selected_option",
+			"( ( $value ) )",
+			"is_the_selected_option"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/tmp/fz3temp-1/technologies.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								653
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 247.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/tmp/fz3temp-1/technologies.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11237,
+								11237
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3313.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "FrameworkMVC.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mcq/models",
+				"romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php"
+			],
+			[
+				"mcq/models/",
+				"romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php"
+			],
+			[
+				"mcq/models/d",
+				"romainbrouard2/wp-content/plugins/mcq/models/event_detail.php"
+			],
+			[
+				"recruiters/models",
+				"romainbrouard2/wp-content/plugins/recruiters/models/dbadapter.php"
+			],
+			[
+				"careers/ed",
+				"romainbrouard2/wp-content/plugins/recruiters/views/careers/edit.php"
+			],
+			[
+				"recruiteredit",
+				"romainbrouard2/base/wp-content/plugins/recruiters/views/recruiters/edit.php"
+			],
+			[
+				"controllers/tech",
+				"romainbrouard2/wp-content/plugins/mcq/controllers/technologies.php"
+			],
+			[
+				"technologiesl",
+				"romainbrouard2/wp-content/plugins/mcq/includes/class-c-technologies-list-table.php"
+			],
+			[
+				"_loca",
+				"romainbrouard2/wp-content/plugins/mcq/views/locations/_location.php"
+			],
+			[
+				"delete",
+				"romainbrouard2/wp-content/plugins/mcq/views/locations/delete.php"
+			],
+			[
+				"locations",
+				"romainbrouard2/wp-content/plugins/mcq/controllers/locations.php"
+			],
+			[
+				"edit",
+				"romainbrouard2/wp-content/plugins/mcq/views/locations/edit.php"
+			],
+			[
+				"careers",
+				"romainbrouard2/wp-content/plugins/recruiters/careers.php"
+			],
+			[
+				"dbadapter",
+				"romainbrouard2/wp-content/plugins/recruiters/models/dbadapter.php"
+			],
+			[
+				"metr",
+				"catalogo/metro-bootstrap.min.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/.config/sublime-text-3/Packages/User/miproyecto1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

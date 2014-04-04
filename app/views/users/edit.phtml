@@ -1,0 +1,21 @@
+<h1>Editing User</h1><br/>
+
+<form id="formEditUser">
+    <input type="hidden" name="id" value="<?php echo $User[ 'id' ] ?>">
+    <input type="hidden" name="sub-action" value="edit">
+    <div>
+        <label for="username">Username</label><br/>
+        <input type="text" name="users[username]" id="username" onchange="checkUserOrEmail( $( this ) )" value="<?php echo $User[ 'username' ] ?>">
+        <span class="tooltip-form" style="display:none;"></span>
+    </div><br/>
+    <div>
+        <label for="email">Email</label><br/>
+        <input type="email" name="users[email]" id="email" onchange="checkUserOrEmail( $( this ) )" value="<?php echo $User[ 'email' ] ?>">
+        <span class="tooltip-form" style="display:none;"></span>
+    </div><br/>
+    <div>
+        <input type="submit" class="btn btn-success" value="Save">
+        <a href="?controller=users&action=editPassword&id=<?php echo $User[ 'id' ] ?>" class="btn btn-danger">Change Password</a>
+        <a href="./" class="btn btn-inverse">Back</a>
+    </div>
+</form>
