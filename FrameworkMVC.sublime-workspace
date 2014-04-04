@@ -520,26 +520,29 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 10136,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/tmp/fz3temp-1/technologies.js",
-			"settings":
-			{
-				"buffer_size": 1825,
+				"buffer_size": 85,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/tmp/fz3temp-1/technologies.php",
+			"contents": "<?php\n\n    /**\n    * Config\n    */\n    class Config {\n        private static $defaultController = 'users';\n        private static $defaultAction = 'index';\n        private static $params = array();\n        private static $titleDocument = 'CRUD MVC Testing';\n        private static $format;\n\n        static public function setParams( $params ) {\n            self::$params = $params;\n        }\n\n        static public function getParams() {\n            return( $_REQUEST );\n        }\n\n        static public function getParam( $param, $default = null ) {\n            return( ( isset( self::$params[ $param ] ) ) ? self::$params[ $param ] : $default );\n        }\n\n        static public function setFormat( $format ) {\n            self::$format = $format;\n        }\n\n        static public function getFormat() {\n            $params = self::getParams();\n            $format = ( isset( $params[ 'format' ] ) ) ? $params[ 'format' ] : self::$format;\n            return( $format );\n        }\n\n        static public function getDefaultController() {\n            return( self::$defaultController );\n        }\n\n        static public function getDefaultAction() {\n            return( self::$defaultAction );\n        }\n\n        static public function getController() {\n            if ( !isset( $_GET[ 'controller' ] ) || empty( $_GET[ 'controller' ] ) || is_null( $_GET[ 'controller' ] ) ) return( self::getDefaultController() );\n            return( $_GET[ 'controller' ] );\n        }\n\n        static public function getAction() {\n            if ( !isset( $_GET[ 'action' ] ) || empty( $_GET[ 'action' ] ) || is_null( $_GET[ 'action' ] ) ) return( self::getDefaultAction() );\n            return( $_GET[ 'action' ] );\n        }\n\n        static public function loadCore( $corePath = CORE_PATH ) {\n            $coreFiles = scandir( $corePath );\n            foreach ( $coreFiles as $value ) {\n                if ( $value == '.' || $value == '..' || $value == 'Config.php' ) {\n                    continue;\n                } else if ( is_dir( $corePath . $value ) ) {\n                    self::loadCore( $corePath . $value . '/' );\n                } else if ( is_readable( $corePath . $value ) ) {\n                    include_once( $corePath . $value );\n                } else die( 'Fail to load file: ' . $corePath . $value );\n            }\n        }\n\n        static public function isAjax() {\n            if ( isset( $_SERVER[ 'HTTP_X_REQUESTED_WITH' ] ) && strtolower( $_SERVER[ 'HTTP_X_REQUESTED_WITH' ] ) == 'xmlhttprequest' ) {\n                return( true );\n            } else {\n                return( false );\n            }\n        }\n\n        static public function getTitleDocument() {\n            return( self::$titleDocument );\n        }\n\n        static public function setTitleDocument( $title ) {\n            self::$titleDocument = $title;\n        }\n    }\n    \n    defined( 'Controller' ) || define( 'Controller', Config::getController() );\n    defined( 'Action' ) || define( 'Action', Config::getAction() );\n",
+			"file": "core/Config.php",
+			"file_size": 3832,
+			"file_write_time": 130343813630000000,
 			"settings":
 			{
-				"buffer_size": 13542,
+				"buffer_size": 3004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/Constants.php",
+			"settings":
+			{
+				"buffer_size": 1252,
 				"line_ending": "Unix"
 			}
 		}
@@ -816,12 +819,13 @@
 	},
 	"file_history":
 	[
+		"/tmp/fz3temp-1/technologies.php",
+		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+		"/tmp/fz3temp-1/technologies.js",
 		"/var/www/mcq/delete.php.b",
 		"/tmp/fz3temp-1/technology.php",
 		"/tmp/fz3temp-1/base 2.js",
-		"/tmp/fz3temp-1/technologies.js",
 		"/tmp/fz3temp-1/technology.js",
-		"/tmp/fz3temp-1/technologies.php",
 		"/tmp/fz3temp-1/base.js",
 		"/home/wss1/wp_romainbrouard.sql",
 		"/tmp/fz3temp-1/delete.php",
@@ -832,7 +836,6 @@
 		"/tmp/fz3temp-1/class-mcq-mcqs-list-table.php",
 		"/tmp/fz3temp-1/class-c-locations-list-table.php",
 		"/var/www/mcq/technology.php",
-		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
 		"/tmp/fz3temp-1/wp-config.php",
 		"/var/www/romainbrouard2/wp-content/plugins/mcq/models/event_detail.php",
 		"/home/wss1/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
@@ -973,6 +976,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"/",
+			"PackageName",
+			"Bootstrap",
 			"inpu",
 			"category_id",
 			"technologyIdcT",
@@ -1097,10 +1103,7 @@
 			"get_contracts",
 			"contracts",
 			"contract",
-			"recruiter_career_contract",
-			"is_the_selected_option",
-			"( ( $value ) )",
-			"is_the_selected_option"
+			"recruiter_career_contract"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1118,24 +1121,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/romainbrouard2/wp-content/plugins/mcq/models/dbadapter.php",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10136,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								66,
+								66
 							]
 						],
 						"settings":
@@ -1184,9 +1187,7 @@
 								"bh_tag_open",
 								"bh_tag_close"
 							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1196,92 +1197,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/tmp/fz3temp-1/technologies.js",
+					"file": "core/Config.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1825,
+						"buffer_size": 3004,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								653,
-								653
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 247.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/tmp/fz3temp-1/technologies.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11237,
-								11237
+								5,
+								5
 							]
 						],
 						"settings":
@@ -1331,11 +1259,82 @@
 								"bh_tag_close"
 							],
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3313.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "core/Constants.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1248,
+								1248
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
